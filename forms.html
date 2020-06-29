@@ -5,7 +5,7 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>APPLY</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='css/styles.html'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/styles.css'>
 </head>
 <body>
     <header><img src="./images/logo.jpeg" alt="JOB-portal-Logo">
@@ -26,9 +26,9 @@
 
     <aside class="left">
         <section id = "NewsColumn">
-            <h2>
+            <p>
                 NEWS COLUMN
-            </h2>
+            </p>
             
         </section>
     </aside>
@@ -42,7 +42,7 @@
             <label for="lname">Last name:</label><br>
             <input type="text" id="lname" name="lname">
 
-            <h3>Gender</h3>
+            <p style='font-weight: bold;' >Gender </p>
 
             <input type="radio" id="male" name="gender" value="male">
             <label for="male">Male</label><br>
@@ -51,11 +51,12 @@
             <input type="radio" id="other" name="gender" value="other">
             <label for="other">Other</label>
         </br>
+        <br>
 
             <label for="Highest Qualification">Choose Your Highest Qualification:</label>
-
-            <select name="Highest Qualification" id="HQ">
-              <option value="none" selected disabled hidden> Select an Option</option>
+        
+            <select name="Highest Qualification" id="HQ" required>
+              <option value="none" selected disabled > Select an Option</option>
               <option value="Under-graduate">Under-graduate</option>
               <option value="Post-graduate">Post-graduate</option>
               <option value="Phd">Phd</option>
@@ -76,11 +77,23 @@
                 <option value="Life Sciences">Life Sciences</option>
                 <option value="English">English</option>
             </select>
-            <br>
+        </br>
+    </br>
+        </form>
 
 
 
         </form>
     </section>
+
+
+
+
+</br></br>
+    <footer>
+    
+        Designed by: Sripranav Kumar Muktevi design not to be reused
+    </footer>
+
 </body>
 </html>
